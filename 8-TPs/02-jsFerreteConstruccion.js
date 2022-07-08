@@ -1,6 +1,6 @@
 /*
 Romina Calani Cruz DIV X 
-Enunciado:
+TP 2 -- Enunciado:
 
     2.	Para el departamento de Construcción:
 A.	 mostrar la cantidad de alambre a comprar  si se ingresara el largo y el ancho de un terreno rectangular y se debe alambra con tres hilos de alambre.
@@ -48,7 +48,7 @@ function Materiales ()
 
     largo = parseFloat(largo);
     ancho = parseFloat(ancho);
-    /*Para que la cantidad de bolsas lo muestre en numeros redondos, lo converti a entero*/
+    /*Para que la cantidad de bolsas lo muestre en numeros redondos, utlice Math.ceil una funcion que redondea hacia arriba los decimales*/
 
     bolsaCal=Math.ceil(largo*ancho*3); 
     bolsaCe=Math.ceil(largo*ancho*2);

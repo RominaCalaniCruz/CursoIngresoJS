@@ -25,7 +25,7 @@ function verificar()
   numeroIngresado = parseInt(numeroIngresado);
 
 	if(numeroIngresado == numeroSecreto){
-    alert("Usted es un ganador!!! Y en solo "+contadorIntentos+" intento/S");
+    alert("Usted es un ganador!!! Y en solo "+contadorIntentos+" intento/s");
   }
   else if(numeroIngresado < numeroSecreto){
     alert("falta...");

@@ -1,10 +1,20 @@
 /*
+Romina Calani Cruz
+DIV X
+
+Enunciado:
 al presionar el botón mostrar 10 repeticiones 
-con números DESCENDENTES, desde el 10 al 1.*/
+con números DESCENDENTES, desde el 10 al 1.
+*/
 function mostrar()
 {
-	var contador;
-	contador=0; 
-	alert('iteración while');
+	let contador;
+	
+	contador=10; 
+	
+	while(contador>0){
+		alert("Numero: " + contador);
+		contador = contador - 1;
+	}
 
 }//FIN DE LA FUNCIÓN

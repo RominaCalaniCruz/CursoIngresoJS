@@ -1,12 +1,22 @@
 /*
+Romina Calani Cruz
+DIV X
+
+Enunciado:
 Al presionar el botón pedir un sexo
-'f' para femenino, 'm' para masculino.*/
+'f' para femenino, 'm' para masculino.
+*/
 function mostrar()
 {
-	var sexoIngresado;
-	sexoIngresado = prompt("ingrese f ó m .");
+	let genero;
 
+	genero = prompt("Ingrese F ó M.").toUpperCase();
 
+	while(genero != 'F' && genero != 'M') 
+	{
+		genero = prompt("Dato invalido. Re-ingrese F ó M.").toUpperCase();
+	}
 
-	txtIdSexo.value=sexoIngresado;
+	document.getElementById("txtIdSexo").value = genero;
+
 }//FIN DE LA FUNCIÓN
